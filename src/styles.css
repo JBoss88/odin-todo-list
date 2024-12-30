@@ -93,7 +93,7 @@ img {
 }
 
 .priority-container {
-    grid-area: 5 / 1 / 6 / 4;
+    grid-area: 5 / 1 / 6 / 5;
 }
 
 .cancel {
@@ -122,4 +122,5 @@ input {
 
 select {
     font-size: 25px;
+    padding: 5px;
 }

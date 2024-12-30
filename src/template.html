@@ -19,36 +19,38 @@
             <button class="upcoming">Upcoming</button>
         </div>
     </div>
-    <form class="center-task-container">
+
+    <form class="center-task-container" id="myForm" style="visibility: hidden">
         <div class="task-container">
+            <div class="default-container">Hi</div>
             <div class="task-name-container">
                 <p class="task-name">Create a Task</p>
             </div>
             <div class="title-container">
-                <label for="">Title</label>
+                <label>Title</label>
                 <br>
                 <input class="task-title" type="text">
             </div>
             <div class="description-container">
-                <label for="">Description</label>
+                <label>Description</label>
                 <br>
                 <input class="task-description" type="text">
             </div>
             <div class="date-container">
-                <label for="">Date</label>
+                <label>Due Date</label>
                 <br>
-                <input type="date">
+                <input class="task-date" type="date">
             </div>
             <div class="priority-container">
-                <label for="">Priority Level</label>
-                <select name="fashion">
+                <label>Priority Level:</label>
+                <select class="task-priority">
                     <option value="None">None</option>
                     <option value="Low">Low</option>
                     <option value="Medium">Medium</option>
                     <option value="High">High</option>
                 </select>
             </div>
-            <button class="cancel" type="button">Cancel</button>
+            <button class="cancel">Cancel</button>
             <button class="submit" type="submit">Submit</button>
         </div>
     </form>
