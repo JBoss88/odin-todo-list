@@ -3,56 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
+    <title>To-Do List</title>
 </head>
 <body>
-    <div class="container">
+    <div class="main-container">
         <div class="left-col">
-            <h1 class="title">The To Do List</h1>
-            <img class="plus" src="images/plus.png">
-            <button class="add-task">Add Task</button>
-
-            <img src="images/clock.png">
-            <button class="today">Today</button>
-
-            <img src="images/calendar.png">
-            <button class="upcoming">Upcoming</button>
+            <button class="sidebar">
+                <img class="letter-J" src="./images/letter-j.png">
+                <h3>Jackson</h3>
+                <img src="./images/down-arrow.png">
+            </button>
+            <button class="sidebar">
+                <img src="./images/add.png">
+                <p>Add Task</p>
+            </button>
+            <button class="sidebar">
+                <img src="./images/search-interface-symbol.png">
+                <p>Search</p>
+            </button>
+            <button class="sidebar">
+                <img src="images/inbox.png">
+                <p>Inbox</p>
+            </button>
+            <button class="sidebar">
+                <img src="images/clock.png">
+                <p>Today</p>
+            </button>
+            <button class="sidebar">
+                <img src="images/calendar.png">
+                <p>Upcoming</p>
+            </button>
+            <button class="sidebar">
+                <img src="images/4-squares.png">
+                <p>Filters and Labels</p>
+            </button>
+            <button class="sidebar">
+                <p>My Projects</p>
+            </button>
+            <button class="sidebar">
+                <img src="images/add.png">
+                <p>Add a Team</p>
+            </button>
+            <button class="sidebar ok">
+                <img src="images/search-interface-symbol.png">
+                <p>Browse Templates</p>
+            </button>
         </div>
     </div>
-
-    <form class="center-task-container" id="myForm" style="visibility: hidden">
-        <div class="task-container">
-            <div class="default-container">Hi</div>
-            <div class="task-name-container">
-                <p class="task-name">Create a Task</p>
-            </div>
-            <div class="title-container">
-                <label>Title</label>
-                <br>
-                <input class="task-title" type="text">
-            </div>
-            <div class="description-container">
-                <label>Description</label>
-                <br>
-                <input class="task-description" type="text">
-            </div>
-            <div class="date-container">
-                <label>Due Date</label>
-                <br>
-                <input class="task-date" type="date">
-            </div>
-            <div class="priority-container">
-                <label>Priority Level:</label>
-                <select class="task-priority">
-                    <option value="None">None</option>
-                    <option value="Low">Low</option>
-                    <option value="Medium">Medium</option>
-                    <option value="High">High</option>
-                </select>
-            </div>
-            <button class="cancel">Cancel</button>
-            <button class="submit" type="submit">Submit</button>
-        </div>
-    </form>
 </body>
 </html>
